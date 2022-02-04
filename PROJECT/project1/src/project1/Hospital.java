@@ -281,11 +281,11 @@ public class Hospital {
                 {
                     s5 = 1;
                     System.out.println("--------------------------------------------------------------------------------");
-                    System.out.println("          **HOSPITAL FACILITY SECTION**");
+                    System.out.println("          **HOSPITAL FECILITY SECTION**");
                     System.out.println("--------------------------------------------------------------------------------");
                     while (s5 == 1)
                     {
-                        System.out.println("1.Add New Facility\n2.Existing Fecilities List");
+                        System.out.println("1.Add New Fecility\n2.Existing Fecilities List");
                         c1 = sc.nextInt();
                         switch (c1)
                         {
@@ -297,7 +297,7 @@ public class Hospital {
                             case 2:
                                 {
                                     System.out.println("--------------------------------------------------------------------------------");
-                                    System.out.println("Hospital  Facility are:");
+                                    System.out.println("Hospital  Fecility are:");
                                     System.out.println("--------------------------------------------------------------------------------");
                                     for (j = 0; j < count5; j++) {
                                         f[j].show_feci();
